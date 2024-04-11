@@ -1,9 +1,164 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Costela"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Queijo Empanado"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Picles"
+      },
+      {
+        "id": 7,
+        "tipo": "Ketchup"
+      },
+      {
+        "id": 8,
+        "tipo": "Mostarda"
+      }
+    ],
+    "molhos": [
+      {
+        "id": 1,
+        "tipo": "Maionese Temperada"
+      },
+      {
+        "id": 2,
+        "tipo": "Ranch"
+      },
+      {
+        "id": 3,
+        "tipo": "Mostarda e Mel"
+      },
+      {
+        "id": 4,
+        "tipo": "Barbecue"
+      },
+      {
+        "id": 5,
+        "tipo": "Molho Especial da Casa"
+      },
+      {
+        "id": 6,
+        "tipo": "Molho de Pimenta"
+      },
+      {
+        "id": 7,
+        "tipo": "Molho de Alho"
+      },
+      {
+        "id": 8,
+        "tipo": "Molho Chipotle"
+      },
+      {
+        "id": 9,
+        "tipo": "Molho Tártaro"
+      },
+      {
+        "id": 10,
+        "tipo": "Molho de Queijo"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Aberto"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "burgers": [
+    {
+      "id": "395f",
+      "nome": "Ana",
+      "pao": "Italiano Branco",
+      "carne": "Maminha",
+      "molho": "Ranch",
+      "extras": [
+        "Bacon",
+        "Queijo Empanado",
+        "Cebola roxa",
+        "Ketchup",
+        "Mostarda",
+        "Picles",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Aberto"
+    },
+    {
+      "id": "0001",
+      "nome": "Carol",
+      "pao": "Parmesão e Orégano",
+      "carne": "Costela",
+      "molho": "Barbecue",
+      "extras": [
+        "Bacon",
+        "Picles",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Aberto"
+    }
+  ]
 }
